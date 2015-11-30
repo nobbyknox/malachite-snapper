@@ -1,0 +1,8 @@
+{
+    "thumbnailDrop": "/Users/nobby/dev/malachite/web/thumbs/",
+    "loggerOptions": {
+        "name": "malachite-snapper",
+        "level": "trace",
+        "src": true
+    }
+}

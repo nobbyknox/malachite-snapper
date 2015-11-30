@@ -1,0 +1,14 @@
+{
+    "name": "MalachiteSnapper",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "bunyan": "1.5.1",
+        "moment": "2.4.0",
+        "phantomjs": "1.9.19",
+        "node-rest-client": "1.5.1"
+    },
+    "scripts": {
+        "start": "MALACHITE_SNAPPER_ENV=development node lib/malachite-snapper.js | ./node_modules/bunyan/bin/bunyan --color"
+    }
+}
