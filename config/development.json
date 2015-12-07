@@ -2,7 +2,7 @@
     "token": "ZYX987",
     "baseUrl": "http://localhost:3003",
     "thumbnailDrop": "/Users/nobby/dev/malachite/web/thumbs/",
-    "processInterval": "1",
+    "processInterval": 1,
     "loggerOptions": {
         "name": "malachite-snapper",
         "level": "trace",

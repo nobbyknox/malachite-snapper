@@ -9,7 +9,7 @@
         "request": "2.67.0"
     },
     "scripts": {
-        "start": "MALACHITE_SNAPPER_ENV=development node lib/malachite-snapper.js | ./node_modules/bunyan/bin/bunyan --color"
+        "start": "MALACHITE_SNAPPER_ENV=development node lib/malachite-snapper.js | ./node_modules/bunyan/bin/bunyan --color",
         "production": "MALACHITE_SNAPPER_ENV=production node lib/malachite-snapper.js | ./node_modules/bunyan/bin/bunyan --color"
     }
 }
